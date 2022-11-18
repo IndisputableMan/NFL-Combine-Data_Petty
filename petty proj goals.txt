@@ -1,0 +1,7 @@
+User enters their stats
+    fastest mile 
+Speed of offensive player 
+Average of offensive players speed
+Feasibility of beating defender or not in order to create points
+Creating a guide for scouts to determine speed of propsect versus average, slowest, fastest offensive player. 
+likelyhood of being able to score or not get caught depending on how many yards headstart you have
