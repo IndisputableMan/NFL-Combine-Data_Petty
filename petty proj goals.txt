@@ -1,5 +1,3 @@
-User enters their stats
-    fastest mile 
 Speed of offensive player 
 Average of offensive players speed
 Feasibility of beating defender or not in order to create points
