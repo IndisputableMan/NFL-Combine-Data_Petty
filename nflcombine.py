@@ -7,7 +7,8 @@ url_list = []
 
 ### Can choose which years you want to scrape for
 ### Add one year to end (ex: range(1987-1990) will search 1987, 88, and 89)
-for num in range(1987, 2018):
+#### Need to find a way to let range go from 1987 to present day - SHC 2022
+for num in range(1987, 2023):
     url_list.append(f"http://nflcombineresults.com/nflcombinedata_expanded.php?year={num}&pos=&college=")
 
 print(url_list)
