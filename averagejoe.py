@@ -45,3 +45,5 @@ print ('\n' + 'DONE')
 
 strong_sde = 59.3/2
 print ( (pos_speed[0])/8)
+
+# NEXT GOAL: Retreive data from the last 4 years in the NFL Combine

@@ -42,7 +42,7 @@ for player in combinedata:
         except IndexError:
             break
 
-#print(playernames) ### confirms list was created correctly
+print(playernames) ### confirms list was created correctly
 
 
 def getNFLData(data):
@@ -113,15 +113,19 @@ def getNFLData(data):
     print(headerText)
     print(career_stats_list)
 
-# def ExportToCSV(data):
-#     ### Added a parameter to remove the newlines in the output file
-#     with open(filename, 'w', newline = '') as f:
-#         writer = csv.writer(f, delimiter=',')
-#         for row in data:
-#             # Writing to the csv column wise
-#             for column in row:
-#                 writer.writerow(column)
+
+""" def ExportToCSV(data):
+        with open(filename, 'w', newline = '') as f:
+            writer = csv.writer(f, delimiter=',')
+            for row in data:
+                
+            # Writing to the csv column wise
+            for column in row:
+                writer.writerow(column) """
 
 getNFLData(playernames)
 
 ### Having trouble with the CSV function at the moment.
+
+#
+
