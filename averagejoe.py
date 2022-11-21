@@ -16,6 +16,7 @@ import csv
 import pandas as pd
 
 
+
 #Dimensions of football field in yards
 fld_len = 100
 fld_wdth = 53.33
@@ -44,6 +45,9 @@ print(pos_speed)
 print ('\n' + 'DONE')
 
 strong_sde = 59.3/2
-print ( (pos_speed[0])/8)
+#print ( (pos_speed[0])/8)
 
-# NEXT GOAL: Retreive data from the last 4 years in the NFL Combine
+
+
+
+

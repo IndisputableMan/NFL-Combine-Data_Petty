@@ -114,14 +114,14 @@ def getNFLData(data):
     print(career_stats_list)
 
 
-""" def ExportToCSV(data):
-        with open(filename, 'w', newline = '') as f:
-            writer = csv.writer(f, delimiter=',')
-            for row in data:
+# """ def ExportToCSV(data):
+#         with open(filename, 'w', newline = '') as f:
+#             writer = csv.writer(f, delimiter=',')
+#             for row in data:
                 
-            # Writing to the csv column wise
-            for column in row:
-                writer.writerow(column) """
+#             # Writing to the csv column wise
+#             for column in row:
+#                 writer.writerow(column) """
 
 getNFLData(playernames)
 
